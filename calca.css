@@ -1,0 +1,89 @@
+ .grid-container{display: grid;
+ 	 
+ 	 width: 290px;
+ 	    justify-content:  center;
+ 	 height: 375px;
+ 	
+	  position: absolute;
+	  left: 50%;
+	  top: 50%;
+	  transform: translate(-50%, -50%);	 
+background: #dde1e7;
+ 	 box-shadow: -3px -3px 5px #fff,
+ 	 3px 3px 15px #000; 
+ 	grid-template-columns: auto auto auto auto;
+ border-radius: 49px;} 
+
+   .grid-container>div{
+ 	 text-align: center;
+
+ 	 
+ }
+button{
+	background: #dde1e7;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	 box-shadow: -3px -3px 5px #fff,
+ 	 3px 3px 15px #000;
+border: 0px;
+}
+ .scr{ 
+ grid-column: 1/ span 5; }
+
+
+ #del{
+ 	grid-area:  4/5/ span 3; }
+
+#del button{
+	height: 99px;
+	border-radius: 49px;
+}
+
+ #equal{
+ 	grid-area:  2/5/ span 2;
+
+ }
+ #equal button{
+ 	height: 99px;
+ 	border-radius: 49px;
+
+
+
+ }
+ #screen{
+ 	margin-top: 35px;
+ 	box-shadow: -3px -3px 5px #fff inset,
+ 	 	 3px 3px 15px #000 inset;
+ 	 	 height: 35px;
+ 	 	 width: 250px;
+ 	 	 background: #dde1e7;
+ 	 	 border: 0px;
+ 	 	 border-radius: 49px;
+ 	 	 font-size: 25px;
+
+ }
+
+body{background: #dde1e7;}
+
+ /*
+ #b-0,
+ #b-1,
+ #b-2,
+ #b-3,
+ #b-4,
+ #b-5,
+ #b-6,
+ #b-7,
+ #b-8,
+ #b-9,
+ #add,
+ #times,
+ #equal,
+ #point
+ #divide,
+ #minus,
+ #del,
+ #sci{ }*/
+
+

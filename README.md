@@ -1,3 +1,5 @@
 #read
 
-A javascript calculator
+A calculator created using HTML, CSS and javaScript
+
+
